@@ -1,0 +1,44 @@
+.pageContainer {
+	width: 100%;
+	background: #ececec;
+	//height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-direction: column;
+	padding: 8px 16px;
+
+	.mainTitle {
+		font-size: 16px;
+		font-weight: 400;
+		margin: 6px 0;
+	}
+
+	.sectionWrapper {
+		display: flex;
+
+		.sectionContainer {
+			display: flex;
+			flex-direction: column;
+			justify-content: stretch;
+			align-items: flex-start;
+			flex: 2;
+			max-width: calc(50% - 16px);
+
+			&.seperator {
+				flex: 1;
+				width: 32px;
+				align-self: center;
+				max-width: 40px;
+				justify-content: center;
+				flex-direction: row;
+			}
+
+			.title {
+				font-size: 13px;
+				font-weight: 400;
+				margin: 4px 0;
+			}
+		}
+	}
+}

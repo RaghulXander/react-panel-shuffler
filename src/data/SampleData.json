@@ -1,0 +1,1382 @@
+[
+    {
+      "industryId": 18,
+      "name": "Accommodation and Food Services",
+      "subIndustryList": [
+        {
+          "subIndustryId": 283,
+          "name": "Traveler Accommodation"
+        },
+        {
+          "subIndustryId": 284,
+          "name": "RV (Recreational Vehicle) Parks and Recreational Camps"
+        },
+        {
+          "subIndustryId": 285,
+          "name": "Rooming and Boarding Houses, Dormitories, and Workers' Camps"
+        },
+        {
+          "subIndustryId": 286,
+          "name": "Special Food Services"
+        },
+        {
+          "subIndustryId": 287,
+          "name": "Drinking Places (Alcoholic Beverages)"
+        },
+        {
+          "subIndustryId": 288,
+          "name": "Restaurants and Other Eating Places"
+        }
+      ],
+      "industryUid": "I-18"
+    },
+    {
+      "industryId": 14,
+      "name": "Administrative and Support and Waste Management and Remediation Services",
+      "subIndustryList": [
+        {
+          "subIndustryId": 238,
+          "name": "Office Administrative Services"
+        },
+        {
+          "subIndustryId": 239,
+          "name": "Facilities Support Services"
+        },
+        {
+          "subIndustryId": 240,
+          "name": "Employment Services"
+        },
+        {
+          "subIndustryId": 241,
+          "name": "Business Support Services"
+        },
+        {
+          "subIndustryId": 242,
+          "name": "Travel Arrangement and Reservation Services"
+        },
+        {
+          "subIndustryId": 243,
+          "name": "Investigation and Security Services"
+        },
+        {
+          "subIndustryId": 244,
+          "name": "Services to Buildings and Dwellings"
+        },
+        {
+          "subIndustryId": 245,
+          "name": "Other Support Services"
+        },
+        {
+          "subIndustryId": 246,
+          "name": "Waste Collection "
+        },
+        {
+          "subIndustryId": 247,
+          "name": "Waste Treatment and Disposal "
+        },
+        {
+          "subIndustryId": 248,
+          "name": "Remediation and Other Waste Management Services "
+        }
+      ],
+      "industryUid": "I-14"
+    },
+    {
+      "industryId": 1,
+      "name": "Agriculture, Forestry, Fishing and Hunting",
+      "subIndustryList": [
+        {
+          "subIndustryId": 1,
+          "name": "Oilseed and Grain Farming"
+        },
+        {
+          "subIndustryId": 2,
+          "name": "Vegetable and Melon Farming"
+        },
+        {
+          "subIndustryId": 3,
+          "name": "Fruit and Tree Nut Farming"
+        },
+        {
+          "subIndustryId": 4,
+          "name": "Greenhouse, Nursery, and Floriculture Production"
+        },
+        {
+          "subIndustryId": 5,
+          "name": "Other Crop Farming"
+        },
+        {
+          "subIndustryId": 6,
+          "name": "Cattle Ranching and Farming"
+        },
+        {
+          "subIndustryId": 7,
+          "name": "Hog and Pig Farming"
+        },
+        {
+          "subIndustryId": 8,
+          "name": "Poultry and Egg Production"
+        },
+        {
+          "subIndustryId": 9,
+          "name": "Sheep and Goat Farming"
+        },
+        {
+          "subIndustryId": 10,
+          "name": "Aquaculture"
+        },
+        {
+          "subIndustryId": 11,
+          "name": "Other Animal Production"
+        },
+        {
+          "subIndustryId": 12,
+          "name": "Timber Tract Operations"
+        },
+        {
+          "subIndustryId": 13,
+          "name": "Forest Nurseries and Gathering of Forest Products"
+        },
+        {
+          "subIndustryId": 14,
+          "name": "Logging"
+        },
+        {
+          "subIndustryId": 15,
+          "name": "Fishing"
+        },
+        {
+          "subIndustryId": 16,
+          "name": "Hunting and Trapping"
+        },
+        {
+          "subIndustryId": 17,
+          "name": "Support Activities for Crop Production"
+        },
+        {
+          "subIndustryId": 18,
+          "name": "Support Activities for Animal Production"
+        },
+        {
+          "subIndustryId": 19,
+          "name": "Support Activities for Forestry"
+        }
+      ],
+      "industryUid": "I-1"
+    },
+    {
+      "industryId": 17,
+      "name": "Arts, Entertainment, and Recreation",
+      "subIndustryList": [
+        {
+          "subIndustryId": 274,
+          "name": "Performing Arts Companies"
+        },
+        {
+          "subIndustryId": 275,
+          "name": "Spectator Sports"
+        },
+        {
+          "subIndustryId": 276,
+          "name": "Promoters of Performing Arts, Sports, and Similar Events"
+        },
+        {
+          "subIndustryId": 277,
+          "name": "Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures"
+        },
+        {
+          "subIndustryId": 278,
+          "name": "Independent Artists, Writers, and Performers"
+        },
+        {
+          "subIndustryId": 279,
+          "name": "Museums, Historical Sites, and Similar Institutions"
+        },
+        {
+          "subIndustryId": 280,
+          "name": "Amusement Parks and Arcades"
+        },
+        {
+          "subIndustryId": 281,
+          "name": "Gambling Industries"
+        },
+        {
+          "subIndustryId": 282,
+          "name": "Other Amusement and Recreation Industries"
+        }
+      ],
+      "industryUid": "I-17"
+    },
+    {
+      "industryId": 4,
+      "name": "Construction",
+      "subIndustryList": [
+        {
+          "subIndustryId": 28,
+          "name": "Residential Building Construction"
+        },
+        {
+          "subIndustryId": 29,
+          "name": "Nonresidential Building Construction"
+        },
+        {
+          "subIndustryId": 30,
+          "name": "Utility System Construction"
+        },
+        {
+          "subIndustryId": 31,
+          "name": "Land Subdivision"
+        },
+        {
+          "subIndustryId": 32,
+          "name": "Highway, Street, and Bridge Construction"
+        },
+        {
+          "subIndustryId": 33,
+          "name": "Other Heavy and Civil Engineering Construction"
+        },
+        {
+          "subIndustryId": 34,
+          "name": "Foundation, Structure, and Building Exterior Contractors"
+        },
+        {
+          "subIndustryId": 35,
+          "name": "Building Equipment Contractors"
+        },
+        {
+          "subIndustryId": 36,
+          "name": "Building Finishing Contractors"
+        },
+        {
+          "subIndustryId": 37,
+          "name": "Other Specialty Trade Contractors"
+        }
+      ],
+      "industryUid": "I-4"
+    },
+    {
+      "industryId": 15,
+      "name": "Educational Services",
+      "subIndustryList": [
+        {
+          "subIndustryId": 249,
+          "name": "Elementary and Secondary Schools"
+        },
+        {
+          "subIndustryId": 250,
+          "name": "Junior Colleges"
+        },
+        {
+          "subIndustryId": 251,
+          "name": "Colleges, Universities, and Professional Schools"
+        },
+        {
+          "subIndustryId": 252,
+          "name": "Business Schools and Computer and Management Training"
+        },
+        {
+          "subIndustryId": 253,
+          "name": "Technical and Trade Schools"
+        },
+        {
+          "subIndustryId": 254,
+          "name": "Other Schools and Instruction"
+        },
+        {
+          "subIndustryId": 255,
+          "name": "Educational Support Services"
+        }
+      ],
+      "industryUid": "I-15"
+    },
+    {
+      "industryId": 10,
+      "name": "Finance and Insurance",
+      "subIndustryList": [
+        {
+          "subIndustryId": 210,
+          "name": "Monetary Authorities-Central Bank"
+        },
+        {
+          "subIndustryId": 211,
+          "name": "Depository Credit Intermediation "
+        },
+        {
+          "subIndustryId": 212,
+          "name": "Nondepository Credit Intermediation "
+        },
+        {
+          "subIndustryId": 213,
+          "name": "Activities Related to Credit Intermediation "
+        },
+        {
+          "subIndustryId": 214,
+          "name": "Securities and Commodity Contracts Intermediation and Brokerage"
+        },
+        {
+          "subIndustryId": 215,
+          "name": "Securities and Commodity Exchanges"
+        },
+        {
+          "subIndustryId": 216,
+          "name": "Other Financial Investment Activities"
+        },
+        {
+          "subIndustryId": 217,
+          "name": "Insurance Carriers"
+        },
+        {
+          "subIndustryId": 218,
+          "name": "Agencies, Brokerages, and Other Insurance Related Activities"
+        },
+        {
+          "subIndustryId": 219,
+          "name": "Insurance and Employee Benefit Funds "
+        }
+      ],
+      "industryUid": "I-10"
+    },
+    {
+      "industryId": 16,
+      "name": "Health Care and Social Assistance",
+      "subIndustryList": [
+        {
+          "subIndustryId": 256,
+          "name": "Offices of Physicians"
+        },
+        {
+          "subIndustryId": 257,
+          "name": "Offices of Dentists"
+        },
+        {
+          "subIndustryId": 258,
+          "name": "Offices of Other Health Practitioners"
+        },
+        {
+          "subIndustryId": 259,
+          "name": "Outpatient Care Centers"
+        },
+        {
+          "subIndustryId": 260,
+          "name": "Medical and Diagnostic Laboratories"
+        },
+        {
+          "subIndustryId": 261,
+          "name": "Home Health Care Services"
+        },
+        {
+          "subIndustryId": 262,
+          "name": "Other Ambulatory Health Care Services"
+        },
+        {
+          "subIndustryId": 263,
+          "name": "General Medical and Surgical Hospitals"
+        },
+        {
+          "subIndustryId": 264,
+          "name": "Psychiatric and Substance Abuse Hospitals"
+        },
+        {
+          "subIndustryId": 265,
+          "name": "Specialty (except Psychiatric and Substance Abuse) Hospitals"
+        },
+        {
+          "subIndustryId": 266,
+          "name": "Nursing Care Facilities (Skilled Nursing Facilities)"
+        },
+        {
+          "subIndustryId": 267,
+          "name": "Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities"
+        },
+        {
+          "subIndustryId": 268,
+          "name": "Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly"
+        },
+        {
+          "subIndustryId": 269,
+          "name": "Other Residential Care Facilities"
+        },
+        {
+          "subIndustryId": 270,
+          "name": "Individual and Family Services"
+        },
+        {
+          "subIndustryId": 271,
+          "name": "Community Food and Housing, and Emergency and Other Relief Services"
+        },
+        {
+          "subIndustryId": 272,
+          "name": "Vocational Rehabilitation Services"
+        },
+        {
+          "subIndustryId": 273,
+          "name": "Child Day Care Services"
+        }
+      ],
+      "industryUid": "I-16"
+    },
+    {
+      "industryId": 9,
+      "name": "Information",
+      "subIndustryList": [
+        {
+          "subIndustryId": 199,
+          "name": "Newspaper, Periodical, Book, and Directory Publishers"
+        },
+        {
+          "subIndustryId": 200,
+          "name": "Software Publishers"
+        },
+        {
+          "subIndustryId": 201,
+          "name": "Motion Picture and Video Industries"
+        },
+        {
+          "subIndustryId": 202,
+          "name": "Motion Picture Theaters (except Drive-Ins) "
+        },
+        {
+          "subIndustryId": 203,
+          "name": "Sound Recording Industries"
+        },
+        {
+          "subIndustryId": 204,
+          "name": "Radio and Television Broadcasting"
+        },
+        {
+          "subIndustryId": 205,
+          "name": "Cable and Other Subscription Programming"
+        },
+        {
+          "subIndustryId": 206,
+          "name": "Wired and Wireless Telecommunications Carriers"
+        },
+        {
+          "subIndustryId": 207,
+          "name": "Satellite Telecommunications"
+        },
+        {
+          "subIndustryId": 208,
+          "name": "Data Processing, Hosting, and Related Services"
+        },
+        {
+          "subIndustryId": 209,
+          "name": "Other Information Services"
+        }
+      ],
+      "industryUid": "I-9"
+    },
+    {
+      "industryId": 13,
+      "name": "Management of Companies and Enterprises",
+      "subIndustryList": [
+        {
+          "subIndustryId": 237,
+          "name": "Management of Companies and Enterprises"
+        }
+      ],
+      "industryUid": "I-13"
+    },
+    {
+      "industryId": 5,
+      "name": "Manufacturing",
+      "subIndustryList": [
+        {
+          "subIndustryId": 38,
+          "name": "Manufacturing"
+        },
+        {
+          "subIndustryId": 39,
+          "name": "Animal Food Manufacturing"
+        },
+        {
+          "subIndustryId": 40,
+          "name": "Grain and Oilseed Milling"
+        },
+        {
+          "subIndustryId": 41,
+          "name": "Sugar and Confectionery Product Manufacturing"
+        },
+        {
+          "subIndustryId": 42,
+          "name": "Fruit and Vegetable Preserving and Specialty Food Manufacturing"
+        },
+        {
+          "subIndustryId": 43,
+          "name": "Dairy Product Manufacturing"
+        },
+        {
+          "subIndustryId": 44,
+          "name": "Animal Slaughtering and Processing"
+        },
+        {
+          "subIndustryId": 45,
+          "name": "Seafood Product Preparation and Packaging"
+        },
+        {
+          "subIndustryId": 46,
+          "name": "Bakeries and Tortilla Manufacturing"
+        },
+        {
+          "subIndustryId": 47,
+          "name": "Other Food Manufacturing"
+        },
+        {
+          "subIndustryId": 48,
+          "name": "Beverage Manufacturing"
+        },
+        {
+          "subIndustryId": 49,
+          "name": "Tobacco Manufacturing"
+        },
+        {
+          "subIndustryId": 50,
+          "name": "Fiber, Yarn, and Thread Mills"
+        },
+        {
+          "subIndustryId": 51,
+          "name": "Fabric Mills"
+        },
+        {
+          "subIndustryId": 52,
+          "name": "Textile and Fabric Finishing and Fabric Coating Mills"
+        },
+        {
+          "subIndustryId": 53,
+          "name": "Textile Furnishings Mills"
+        },
+        {
+          "subIndustryId": 54,
+          "name": "Other Textile Product Mills"
+        },
+        {
+          "subIndustryId": 55,
+          "name": "Apparel Knitting Mills"
+        },
+        {
+          "subIndustryId": 56,
+          "name": "Cut and Sew Apparel Manufacturing"
+        },
+        {
+          "subIndustryId": 57,
+          "name": "Apparel Accessories and Other Apparel Manufacturing"
+        },
+        {
+          "subIndustryId": 58,
+          "name": "Leather and Hide Tanning and Finishing"
+        },
+        {
+          "subIndustryId": 59,
+          "name": "Footwear Manufacturing"
+        },
+        {
+          "subIndustryId": 60,
+          "name": "Other Leather and Allied Product Manufacturing"
+        },
+        {
+          "subIndustryId": 61,
+          "name": "Sawmills and Wood Preservation"
+        },
+        {
+          "subIndustryId": 62,
+          "name": "Veneer, Plywood, and Engineered Wood Product Manufacturing"
+        },
+        {
+          "subIndustryId": 63,
+          "name": "Other Wood Product Manufacturing"
+        },
+        {
+          "subIndustryId": 64,
+          "name": "Pulp, Paper, and Paperboard Mills"
+        },
+        {
+          "subIndustryId": 65,
+          "name": "Converted Paper Product Manufacturing"
+        },
+        {
+          "subIndustryId": 66,
+          "name": "Printing and Related Support Activities"
+        },
+        {
+          "subIndustryId": 67,
+          "name": "Petroleum and Coal Products Manufacturing"
+        },
+        {
+          "subIndustryId": 68,
+          "name": "Basic Chemical Manufacturing"
+        },
+        {
+          "subIndustryId": 69,
+          "name": "Resin, Synthetic Rubber, and Artificial and Synthetic Fibers and Filaments Manufacturing"
+        },
+        {
+          "subIndustryId": 70,
+          "name": "Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing"
+        },
+        {
+          "subIndustryId": 71,
+          "name": "Pharmaceutical and Medicine Manufacturing"
+        },
+        {
+          "subIndustryId": 72,
+          "name": "Paint, Coating, and Adhesive Manufacturing"
+        },
+        {
+          "subIndustryId": 73,
+          "name": "Soap, Cleaning Compound, and Toilet Preparation Manufacturing"
+        },
+        {
+          "subIndustryId": 74,
+          "name": "Other Chemical Product and Preparation Manufacturing"
+        },
+        {
+          "subIndustryId": 75,
+          "name": "Plastics Product Manufacturing"
+        },
+        {
+          "subIndustryId": 76,
+          "name": "Rubber Product Manufacturing"
+        },
+        {
+          "subIndustryId": 77,
+          "name": "Clay Product and Refractory Manufacturing"
+        },
+        {
+          "subIndustryId": 78,
+          "name": "Glass and Glass Product Manufacturing"
+        },
+        {
+          "subIndustryId": 79,
+          "name": "Cement and Concrete Product Manufacturing"
+        },
+        {
+          "subIndustryId": 80,
+          "name": "Lime and Gypsum Product Manufacturing"
+        },
+        {
+          "subIndustryId": 81,
+          "name": "Other Nonmetallic Mineral Product Manufacturing"
+        },
+        {
+          "subIndustryId": 82,
+          "name": "Iron and Steel Mills and Ferroalloy Manufacturing"
+        },
+        {
+          "subIndustryId": 83,
+          "name": "Steel Product Manufacturing from Purchased Steel"
+        },
+        {
+          "subIndustryId": 84,
+          "name": "Alumina and Aluminum Production and Processing"
+        },
+        {
+          "subIndustryId": 85,
+          "name": "Nonferrous Metal (except Aluminum) Production and Processing"
+        },
+        {
+          "subIndustryId": 86,
+          "name": "Foundries"
+        },
+        {
+          "subIndustryId": 87,
+          "name": "Forging and Stamping"
+        },
+        {
+          "subIndustryId": 88,
+          "name": "Cutlery and Handtool Manufacturing"
+        },
+        {
+          "subIndustryId": 89,
+          "name": "Architectural and Structural Metals Manufacturing"
+        },
+        {
+          "subIndustryId": 90,
+          "name": "Boiler, Tank, and Shipping Container Manufacturing"
+        },
+        {
+          "subIndustryId": 91,
+          "name": "Hardware Manufacturing"
+        },
+        {
+          "subIndustryId": 92,
+          "name": "Spring and Wire Product Manufacturing"
+        },
+        {
+          "subIndustryId": 93,
+          "name": "Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing"
+        },
+        {
+          "subIndustryId": 94,
+          "name": "Coating, Engraving, Heat Treating, and Allied Activities"
+        },
+        {
+          "subIndustryId": 95,
+          "name": "Other Fabricated Metal Product Manufacturing"
+        },
+        {
+          "subIndustryId": 96,
+          "name": "Agriculture, Construction, and Mining Machinery Manufacturing"
+        },
+        {
+          "subIndustryId": 97,
+          "name": "Industrial Machinery Manufacturing"
+        },
+        {
+          "subIndustryId": 98,
+          "name": "Commercial and Service Industry Machinery Manufacturing"
+        },
+        {
+          "subIndustryId": 99,
+          "name": "Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 100,
+          "name": "Metalworking Machinery Manufacturing"
+        },
+        {
+          "subIndustryId": 101,
+          "name": "Engine, Turbine, and Power Transmission Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 102,
+          "name": "Other General Purpose Machinery Manufacturing"
+        },
+        {
+          "subIndustryId": 103,
+          "name": "Computer and Peripheral Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 104,
+          "name": "Communications Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 105,
+          "name": "Audio and Video Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 106,
+          "name": "Semiconductor and Other Electronic Component Manufacturing"
+        },
+        {
+          "subIndustryId": 107,
+          "name": "Navigational, Measuring, Electromedical, and Control Instruments Manufacturing"
+        },
+        {
+          "subIndustryId": 108,
+          "name": "Manufacturing and Reproducing Magnetic and Optical Media"
+        },
+        {
+          "subIndustryId": 109,
+          "name": "Electric Lighting Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 110,
+          "name": "Household Appliance Manufacturing"
+        },
+        {
+          "subIndustryId": 111,
+          "name": "Electrical Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 112,
+          "name": "Other Electrical Equipment and Component Manufacturing"
+        },
+        {
+          "subIndustryId": 113,
+          "name": "Motor Vehicle Manufacturing"
+        },
+        {
+          "subIndustryId": 114,
+          "name": "Motor Vehicle Body and Trailer Manufacturing"
+        },
+        {
+          "subIndustryId": 115,
+          "name": "Motor Vehicle Parts Manufacturing"
+        },
+        {
+          "subIndustryId": 116,
+          "name": "Aerospace Product and Parts Manufacturing"
+        },
+        {
+          "subIndustryId": 117,
+          "name": "Railroad Rolling Stock Manufacturing"
+        },
+        {
+          "subIndustryId": 118,
+          "name": "Ship and Boat Building"
+        },
+        {
+          "subIndustryId": 119,
+          "name": "Other Transportation Equipment Manufacturing"
+        },
+        {
+          "subIndustryId": 120,
+          "name": "Household and Institutional Furniture and Kitchen Cabinet Manufacturing"
+        },
+        {
+          "subIndustryId": 121,
+          "name": "Office Furniture (including Fixtures) Manufacturing"
+        },
+        {
+          "subIndustryId": 122,
+          "name": "Other Furniture Related Product Manufacturing"
+        },
+        {
+          "subIndustryId": 123,
+          "name": "Medical Equipment and Supplies Manufacturing"
+        },
+        {
+          "subIndustryId": 124,
+          "name": "Other Miscellaneous Manufacturing"
+        }
+      ],
+      "industryUid": "I-5"
+    },
+    {
+      "industryId": 2,
+      "name": "Mining, Quarrying, and Oil and Gas Extraction",
+      "subIndustryList": [
+        {
+          "subIndustryId": 20,
+          "name": "Oil and Gas Extraction"
+        },
+        {
+          "subIndustryId": 21,
+          "name": "Coal Mining"
+        },
+        {
+          "subIndustryId": 22,
+          "name": "Metal Ore Mining"
+        },
+        {
+          "subIndustryId": 23,
+          "name": "Nonmetallic Mineral Mining and Quarrying"
+        },
+        {
+          "subIndustryId": 24,
+          "name": "Support Activities for Mining"
+        }
+      ],
+      "industryUid": "I-2"
+    },
+    {
+      "industryId": 19,
+      "name": "Other Services (except Public Administration)",
+      "subIndustryList": [
+        {
+          "subIndustryId": 289,
+          "name": "Automotive Repair and Maintenance"
+        },
+        {
+          "subIndustryId": 290,
+          "name": "Electronic and Precision Equipment Repair and Maintenance"
+        },
+        {
+          "subIndustryId": 291,
+          "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance"
+        },
+        {
+          "subIndustryId": 292,
+          "name": "Personal and Household Goods Repair and Maintenance"
+        },
+        {
+          "subIndustryId": 293,
+          "name": "Personal Care Services "
+        },
+        {
+          "subIndustryId": 294,
+          "name": "Death Care Services "
+        },
+        {
+          "subIndustryId": 295,
+          "name": "Drycleaning and Laundry Services "
+        },
+        {
+          "subIndustryId": 296,
+          "name": "Other Personal Services "
+        },
+        {
+          "subIndustryId": 297,
+          "name": "Religious Organizations "
+        },
+        {
+          "subIndustryId": 298,
+          "name": "Grantmaking and Giving Services "
+        },
+        {
+          "subIndustryId": 299,
+          "name": "Social Advocacy Organizations "
+        },
+        {
+          "subIndustryId": 300,
+          "name": "Civic and Social Organizations "
+        },
+        {
+          "subIndustryId": 301,
+          "name": "Business, Professional, Labor, Political, and Similar Organizations "
+        },
+        {
+          "subIndustryId": 302,
+          "name": "Private Households"
+        }
+      ],
+      "industryUid": "I-19"
+    },
+    {
+      "industryId": 12,
+      "name": "Professional, Scientific, and Technical Services",
+      "subIndustryList": [
+        {
+          "subIndustryId": 228,
+          "name": "Legal Services"
+        },
+        {
+          "subIndustryId": 229,
+          "name": "Accounting, Tax Preparation, Bookkeeping, and Payroll Services"
+        },
+        {
+          "subIndustryId": 230,
+          "name": "Architectural, Engineering, and Related Services"
+        },
+        {
+          "subIndustryId": 231,
+          "name": "Specialized Design Services"
+        },
+        {
+          "subIndustryId": 232,
+          "name": "Computer Systems Design and Related Services"
+        },
+        {
+          "subIndustryId": 233,
+          "name": "Management, Scientific, and Technical Consulting Services"
+        },
+        {
+          "subIndustryId": 234,
+          "name": "Scientific Research and Development Services"
+        },
+        {
+          "subIndustryId": 235,
+          "name": "Advertising, Public Relations, and Related Services"
+        },
+        {
+          "subIndustryId": 236,
+          "name": "Other Professional, Scientific, and Technical Services"
+        }
+      ],
+      "industryUid": "I-12"
+    },
+    {
+      "industryId": 20,
+      "name": "Public Administration",
+      "subIndustryList": [
+        {
+          "subIndustryId": 303,
+          "name": "Executive, Legislative, and Other General Government Support "
+        },
+        {
+          "subIndustryId": 304,
+          "name": "Justice, Public Order, and Safety Activities "
+        },
+        {
+          "subIndustryId": 305,
+          "name": "Administration of Human Resource Programs "
+        },
+        {
+          "subIndustryId": 306,
+          "name": "Administration of Environmental Quality Programs "
+        },
+        {
+          "subIndustryId": 307,
+          "name": "Administration of Housing Programs, Urban Planning, and Community Development "
+        },
+        {
+          "subIndustryId": 308,
+          "name": "Administration of Economic Programs "
+        },
+        {
+          "subIndustryId": 309,
+          "name": "Space Research and Technology "
+        },
+        {
+          "subIndustryId": 310,
+          "name": "National Security and International Affairs "
+        }
+      ],
+      "industryUid": "I-20"
+    },
+    {
+      "industryId": 11,
+      "name": "Real Estate and Rental and Leasing",
+      "subIndustryList": [
+        {
+          "subIndustryId": 220,
+          "name": "Lessors of Real Estate"
+        },
+        {
+          "subIndustryId": 221,
+          "name": "Offices of Real Estate Agents and Brokers"
+        },
+        {
+          "subIndustryId": 222,
+          "name": "Activities Related to Real Estate"
+        },
+        {
+          "subIndustryId": 223,
+          "name": "Automotive Equipment Rental and Leasing"
+        },
+        {
+          "subIndustryId": 224,
+          "name": "Consumer Goods Rental"
+        },
+        {
+          "subIndustryId": 225,
+          "name": "General Rental Centers"
+        },
+        {
+          "subIndustryId": 226,
+          "name": "Commercial and Industrial Machinery and Equipment Rental and Leasing"
+        },
+        {
+          "subIndustryId": 227,
+          "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)"
+        }
+      ],
+      "industryUid": "I-11"
+    },
+    {
+      "industryId": 7,
+      "name": "Retail Trade",
+      "subIndustryList": [
+        {
+          "subIndustryId": 144,
+          "name": "Automobile Dealers "
+        },
+        {
+          "subIndustryId": 145,
+          "name": "Other Motor Vehicle Dealers "
+        },
+        {
+          "subIndustryId": 146,
+          "name": "Automotive Parts, Accessories, and Tire Stores "
+        },
+        {
+          "subIndustryId": 147,
+          "name": "Furniture Stores "
+        },
+        {
+          "subIndustryId": 148,
+          "name": "Home Furnishings Stores "
+        },
+        {
+          "subIndustryId": 149,
+          "name": "Electronics and Appliance Stores "
+        },
+        {
+          "subIndustryId": 150,
+          "name": "Building Material and Supplies Dealers "
+        },
+        {
+          "subIndustryId": 151,
+          "name": "Lawn and Garden Equipment and Supplies Stores "
+        },
+        {
+          "subIndustryId": 152,
+          "name": "Grocery Stores "
+        },
+        {
+          "subIndustryId": 153,
+          "name": "Specialty Food Stores "
+        },
+        {
+          "subIndustryId": 154,
+          "name": "Beer, Wine, and Liquor Stores "
+        },
+        {
+          "subIndustryId": 155,
+          "name": "Health and Personal Care Stores "
+        },
+        {
+          "subIndustryId": 156,
+          "name": "Gasoline Stations "
+        },
+        {
+          "subIndustryId": 157,
+          "name": "Clothing Stores "
+        },
+        {
+          "subIndustryId": 158,
+          "name": "Shoe Stores "
+        },
+        {
+          "subIndustryId": 159,
+          "name": "Jewelry, Luggage, and Leather Goods Stores "
+        },
+        {
+          "subIndustryId": 160,
+          "name": "Sporting Goods, Hobby, and Musical Instrument Stores "
+        },
+        {
+          "subIndustryId": 161,
+          "name": "Book Stores and News Dealers "
+        },
+        {
+          "subIndustryId": 162,
+          "name": "Department Stores "
+        },
+        {
+          "subIndustryId": 163,
+          "name": "General Merchandise Stores, including Warehouse Clubs and Supercenters "
+        },
+        {
+          "subIndustryId": 164,
+          "name": "Florists "
+        },
+        {
+          "subIndustryId": 165,
+          "name": "Office Supplies, Stationery, and Gift Stores "
+        },
+        {
+          "subIndustryId": 166,
+          "name": "Used Merchandise Stores "
+        },
+        {
+          "subIndustryId": 167,
+          "name": "Other Miscellaneous Store Retailers "
+        },
+        {
+          "subIndustryId": 168,
+          "name": "Electronic Shopping and Mail-Order Houses "
+        },
+        {
+          "subIndustryId": 169,
+          "name": "Vending Machine Operators "
+        }
+      ],
+      "industryUid": "I-7"
+    },
+    {
+      "industryId": 8,
+      "name": "Transportation and Warehousing",
+      "subIndustryList": [
+        {
+          "subIndustryId": 170,
+          "name": "Scheduled Air Transportation"
+        },
+        {
+          "subIndustryId": 171,
+          "name": "Nonscheduled Air Transportation"
+        },
+        {
+          "subIndustryId": 172,
+          "name": "Rail Transportation"
+        },
+        {
+          "subIndustryId": 173,
+          "name": "Deep Sea, Coastal, and Great Lakes Water Transportation"
+        },
+        {
+          "subIndustryId": 174,
+          "name": "Inland Water Transportation"
+        },
+        {
+          "subIndustryId": 175,
+          "name": "General Freight Trucking"
+        },
+        {
+          "subIndustryId": 176,
+          "name": "Specialized Freight Trucking"
+        },
+        {
+          "subIndustryId": 177,
+          "name": "Urban Transit Systems"
+        },
+        {
+          "subIndustryId": 178,
+          "name": "Interurban and Rural Bus Transportation"
+        },
+        {
+          "subIndustryId": 179,
+          "name": "Taxi and Limousine Service"
+        },
+        {
+          "subIndustryId": 180,
+          "name": "School and Employee Bus Transportation"
+        },
+        {
+          "subIndustryId": 181,
+          "name": "Charter Bus Industry"
+        },
+        {
+          "subIndustryId": 182,
+          "name": "Other Transit and Ground Passenger Transportation"
+        },
+        {
+          "subIndustryId": 183,
+          "name": "Pipeline Transportation of Crude Oil"
+        },
+        {
+          "subIndustryId": 184,
+          "name": "Pipeline Transportation of Natural Gas"
+        },
+        {
+          "subIndustryId": 185,
+          "name": "Other Pipeline Transportation"
+        },
+        {
+          "subIndustryId": 186,
+          "name": "Scenic and Sightseeing Transportation, Land"
+        },
+        {
+          "subIndustryId": 187,
+          "name": "Scenic and Sightseeing Transportation, Water"
+        },
+        {
+          "subIndustryId": 188,
+          "name": "Scenic and Sightseeing Transportation, Other"
+        },
+        {
+          "subIndustryId": 189,
+          "name": "Support Activities for Air Transportation"
+        },
+        {
+          "subIndustryId": 190,
+          "name": "Support Activities for Rail Transportation"
+        },
+        {
+          "subIndustryId": 191,
+          "name": "Support Activities for Water Transportation"
+        },
+        {
+          "subIndustryId": 192,
+          "name": "Support Activities for Road Transportation"
+        },
+        {
+          "subIndustryId": 193,
+          "name": "Freight Transportation Arrangement"
+        },
+        {
+          "subIndustryId": 194,
+          "name": "Other Support Activities for Transportation"
+        },
+        {
+          "subIndustryId": 195,
+          "name": "Postal Service"
+        },
+        {
+          "subIndustryId": 196,
+          "name": "Couriers and Express Delivery Services"
+        },
+        {
+          "subIndustryId": 197,
+          "name": "Local Messengers and Local Delivery"
+        },
+        {
+          "subIndustryId": 198,
+          "name": "Warehousing and Storage"
+        }
+      ],
+      "industryUid": "I-8"
+    },
+    {
+      "industryId": 3,
+      "name": "Utilities",
+      "subIndustryList": [
+        {
+          "subIndustryId": 25,
+          "name": "Electric Power Generation, Transmission and Distribution"
+        },
+        {
+          "subIndustryId": 26,
+          "name": "Natural Gas Distribution"
+        },
+        {
+          "subIndustryId": 27,
+          "name": "Water, Sewage and Other Systems"
+        }
+      ],
+      "industryUid": "I-3"
+    },
+    {
+      "industryId": 6,
+      "name": "Wholesale Trade",
+      "subIndustryList": [
+        {
+          "subIndustryId": 125,
+          "name": "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 126,
+          "name": "Furniture and Home Furnishing Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 127,
+          "name": "Lumber and Other Construction Materials Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 128,
+          "name": "Professional and Commercial Equipment and Supplies Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 129,
+          "name": "Metal and Mineral (except Petroleum) Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 130,
+          "name": "Household Appliances and Electrical and Electronic Goods Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 131,
+          "name": "Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 132,
+          "name": "Machinery, Equipment, and Supplies Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 133,
+          "name": "Miscellaneous Durable Goods Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 134,
+          "name": "Paper and Paper Product Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 135,
+          "name": "Drugs and Druggists' Sundries Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 136,
+          "name": "Apparel, Piece Goods, and Notions Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 137,
+          "name": "Grocery and Related Product Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 138,
+          "name": "Farm Product Raw Material Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 139,
+          "name": "Chemical and Allied Products Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 140,
+          "name": "Petroleum and Petroleum Products Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 141,
+          "name": "Beer, Wine, and Distilled Alcoholic Beverage Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 142,
+          "name": "Miscellaneous Nondurable Goods Merchant Wholesalers "
+        },
+        {
+          "subIndustryId": 143,
+          "name": "Wholesale Electronic Markets and Agents and Brokers "
+        }
+      ],
+      "industryUid": "I-6"
+    }
+  ]
