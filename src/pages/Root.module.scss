@@ -34,11 +34,19 @@
 				flex-direction: row;
 			}
 
-			.title {
-				font-size: 13px;
-				font-weight: 400;
-				margin: 4px 0;
+			.header {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				width: 100%;
+
+				.title {
+					font-size: 13px;
+					font-weight: 400;
+					margin: 4px 0;
+				}
 			}
+
 		}
 	}
 }

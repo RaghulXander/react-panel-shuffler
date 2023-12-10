@@ -1,8 +1,9 @@
 import { Industry, SubIndustry } from "../models/industry";
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { updateSectionsChild, updateSectionsParent } from "../utils/updateDataHelper";
 
 import { Repeat } from "../icons/Icons";
+import { SearchInput } from "../components/Search/Search";
 import { Section } from "../components/Section/Section";
 import classNames from "classnames";
 import mockData from "../data/SampleData.json";
@@ -11,6 +12,8 @@ import styles from "./Root.module.scss";
 const Root: React.FC = () => {
 	const [leftItems, setLeftItems] = useState<Industry[]>([]);
 	const [rightItems, setRightItems] = useState<Industry[]>([]);
+	const [searchLeftQuery, setLeftSearchQuery] = useState<string>("");
+	const [searchRightQuery, setRightSearchQuery] = useState<string>("");
 
 	useEffect(() => {
 		setLeftItems([...mockData]);
@@ -26,7 +29,7 @@ const Root: React.FC = () => {
 		}
 	};
 
-	const moveParentItem = useCallback(
+	const onMoveParentItem = useCallback(
 		(item: Industry, direction: "RTL" | "LTR") => {
 			const { leftData, rightData } = updateSectionsParent(item.industryId, leftItems, rightItems, direction);
 			setLeftItems([...leftData]);
@@ -45,12 +48,20 @@ const Root: React.FC = () => {
 				direction
 			);
 
-			console.log(leftData, rightData, direction);
-
 			setLeftItems([...leftData]);
 			setRightItems([...rightData]);
 		},
 		[leftItems, rightItems]
+	);
+
+	const filteredLeftIndustries = useMemo(
+		() => leftItems.filter((industry) => industry.name.toLowerCase().includes(searchLeftQuery.toLowerCase())),
+		[leftItems, searchLeftQuery]
+	);
+
+	const filteredRightIndustries = useMemo(
+		() => rightItems.filter((industry) => industry.name.toLowerCase().includes(searchRightQuery.toLowerCase())),
+		[rightItems, searchRightQuery]
 	);
 
 	return (
@@ -58,12 +69,15 @@ const Root: React.FC = () => {
 			<h2 className={styles.mainTitle}>Industries</h2>
 			<div className={styles.sectionWrapper}>
 				<div className={styles.sectionContainer}>
-					<h3 className={styles.title}>Choose from</h3>
+					<div className={styles.header}>
+						<h3 className={styles.title}>Choose from</h3>
+						<SearchInput value={searchLeftQuery} onChange={(s) => setLeftSearchQuery(s)} />
+					</div>
 					<Section
 						sKey="Left"
 						key="Left"
-						industries={leftItems}
-						moveParentItem={(data) => moveParentItem(data, "LTR")}
+						industries={filteredLeftIndustries}
+						moveParentItem={(data) => onMoveParentItem(data, "LTR")}
 						moveChildItem={(data, subIndustry) => onMoveChild(data, subIndustry, "LTR")}
 						onMoveAllItems={() => handleMoveAllItem("LTR")}
 					/>
@@ -72,12 +86,15 @@ const Root: React.FC = () => {
 					<Repeat size={32} />
 				</div>
 				<div className={styles.sectionContainer}>
-					<h3 className={styles.title}>Selected</h3>
+					<div className={styles.header}>
+						<h3 className={styles.title}>Selected</h3>
+						<SearchInput value={searchLeftQuery} onChange={(s) => setRightSearchQuery(s)} />
+					</div>
 					<Section
 						sKey="Right"
 						key="Right"
-						industries={rightItems}
-						moveParentItem={(data) => moveParentItem(data, "RTL")}
+						industries={filteredRightIndustries}
+						moveParentItem={(data) => onMoveParentItem(data, "RTL")}
 						moveChildItem={(data, subIndustry) => onMoveChild(data, subIndustry, "RTL")}
 						onMoveAllItems={() => handleMoveAllItem("RTL")}
 					/>

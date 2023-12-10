@@ -41,8 +41,6 @@ export function updateSectionsChild(
 				(subIndustry) => subIndustry.subIndustryId === childData.subIndustryId
 			) ?? -1;
 
-		console.log("dfdfd", selectedParentInRight, selectedParentInLeft);
-
 		if (direction === "LTR" && selectedLeftChildIndex !== -1) {
 			const selectedChild = selectedParentInLeft!.subIndustryList[selectedLeftChildIndex];
 			if (selectedParentInRight) {
@@ -73,8 +71,6 @@ export function updateSectionsChild(
 			}
 		}
 	}
-
-	console.log("leftData", leftData, rightData);
 
 	return { leftData, rightData };
 }

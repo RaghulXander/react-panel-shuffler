@@ -20,11 +20,9 @@ export const Section: React.FC<TSectionProps> = ({
 	onMoveAllItems,
 	industries
 }) => {
-	console.log("industries", industries);
 	const [expandedItems, setExpandedItems] = useState<number[]>([]);
 
 	const toggleExpand = useCallback((id: number) => {
-		console.log("iddd", id);
 		setExpandedItems((prevExpandedItems) => {
 			if (prevExpandedItems.includes(id)) {
 				return prevExpandedItems.filter((item) => item !== id);
