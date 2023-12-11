@@ -22,7 +22,7 @@ export const SearchInput: React.FC<{ onChange: (e: string) => void; value: strin
 					setValue(e.target.value);
 					onChange(e.target.value);
 				}}
-				placeholder="Search location..."
+				placeholder="Search industries..."
 			/>
 			<span className={styles.icon}>
 				<SvgSearch size={14} color="#85888c" />

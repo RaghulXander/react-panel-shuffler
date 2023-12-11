@@ -21,11 +21,13 @@ const Root: React.FC = () => {
 
 	const handleMoveAllItem = (direction: "RTL" | "LTR") => {
 		if (direction === "RTL") {
-			setLeftItems([...leftItems, ...rightItems]);
-			setRightItems([]);
-		} else {
-			setRightItems([...rightItems, ...leftItems]);
+			const updatedRightItems = [...rightItems, ...leftItems.map((item) => ({ ...item }))];
 			setLeftItems([]);
+			setRightItems(updatedRightItems);
+		} else {
+			const updatedLeftItems = [...leftItems, ...rightItems.map((item) => ({ ...item }))];
+			setRightItems([]);
+			setLeftItems(updatedLeftItems);
 		}
 	};
 
